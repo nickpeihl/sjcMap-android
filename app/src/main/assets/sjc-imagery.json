@@ -6,7 +6,7 @@
   "sources": {
     "imagery": {
       "type": "raster",
-      "tiles": ["http://sjcgis.org/proxy/proxy.ashx?http://sjcgis.org/arcgis/rest/services/Basemaps/Aerials_2013_WM/MapServer/tile/{z}/{y}/{x}"]
+      "tiles": ["http://sjcgis.org/arcgis/rest/services/Basemaps/Aerials_2013_WM/MapServer/tile/{z}/{y}/{x}"]
     }
   },
   "layers": [
