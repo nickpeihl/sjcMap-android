@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">sjcMap</string>
+
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_settings">sjcMap</string>
+    <string name="access_token">your token here</string>
+
+</resources>

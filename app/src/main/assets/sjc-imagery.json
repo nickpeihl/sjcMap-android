@@ -1,0 +1,22 @@
+{
+  "version": 8,
+  "name": "SJC Aerial Basemap",
+  "center": [-122.963448,48.568656],
+  "zoom": 11,
+  "sources": {
+    "imagery": {
+      "type": "raster",
+      "tiles": ["http://sjcgis.org/proxy/proxy.ashx?http://sjcgis.org/arcgis/rest/services/Basemaps/Aerials_2013_WM/MapServer/tile/{z}/{y}/{x}"]
+    }
+  },
+  "layers": [
+    {
+      "id": "aerial",
+      "source": "imagery",
+      "type": "raster",
+      "minzoom": 10,
+      "maxzoom": 19
+
+    }
+  ]
+}
