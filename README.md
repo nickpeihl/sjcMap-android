@@ -1,8 +1,10 @@
 # sjcMap-android
-An example Android app showing how Mapbox-GL-Native can work with ArcGIS Server basemaps. 
+An example Android app showing how Mapbox-GL-Native can work with ArcGIS Server basemaps.
+
+<iframe src="//giphy.com/embed/l4KhWWYsrxevZzQ5y?html5=true" width="480" height="800" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/l4KhWWYsrxevZzQ5y">via GIPHY</a></p>
 
 ## How does it work?
-Layers in Mapbox-GL are defined using the [Mapbox GL Style Spec](https://www.mapbox.com/mapbox-gl-style-spec/). The [Sources](https://www.mapbox.com/mapbox-gl-style-spec/#sources) in the Mapbox GL Style specification are defined using the [TileJSON Specification](https://github.com/mapbox/tilejson-spec). 
+Layers in Mapbox-GL are defined using the [Mapbox GL Style Spec](https://www.mapbox.com/mapbox-gl-style-spec/). The [Sources](https://www.mapbox.com/mapbox-gl-style-spec/#sources) in the Mapbox GL Style specification are defined using the [TileJSON Specification](https://github.com/mapbox/tilejson-spec).
 
 An ArcGIS Server map service can be referenced in the TileJSON spec provided all the following are true:
 
